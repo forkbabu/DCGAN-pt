@@ -10,7 +10,7 @@ ndf : 64                                # discriminator filters
 epochs : 25                             # number of epochs to train for
 lr : 0.0002                             # learning rate, default=0.0002
 beta1 : 0.5                             # beta1 for adam
-dry_run : False                         # check a single training cycle works
+dry_run : True                         # check a single training cycle works
 ngpu : 1                                # number of GPUs to use
 netG : ''                               # path to netG (to continue training)
 netD : ''                               # path to netD (to continue training)
