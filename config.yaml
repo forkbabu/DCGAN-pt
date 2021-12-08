@@ -1,5 +1,6 @@
-dataset : 'flickrfaceshq-dataset-ffhq' 
-dataroot : '/kaggle/input'                     # path to dataset
+dataset : 'folder' 
+dataroot : '/kaggle/input/flickrfaceshq-dataset-ffhq'                     # path to dataset
+assets: './assets'
 workers : 0                             # number of data loading workers
 batch_size : 32                         # input batch size
 image_size : 512                         # the height / width of the input image to network
