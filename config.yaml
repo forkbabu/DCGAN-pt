@@ -1,5 +1,5 @@
 dataset : 'folder' 
-dataroot : '/kaggle/input/flickrfaceshq-dataset-ffhq'                     # path to dataset
+dataroot : '/kaggle/input/'                     # path to dataset
 assets: './assets'
 workers : 0                             # number of data loading workers
 batch_size : 32                         # input batch size
